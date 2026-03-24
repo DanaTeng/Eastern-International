@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastern International Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <a href="#home" class="nav-logo">
+            <img src="images/eia.png" alt="Eastern International Academy Logo">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times close-icon" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#course" class="nav-item">Programs</a></li>
+                <li><a href="#campus" class="nav-item">Campus</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <a href="https://t.me/EasterninternationalAcademy" target="_blank" class="nav-cta">Enroll Now</a>
+        </div>
+        <i class="fa fa-bars hamburger" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <img src="images/student.jpeg" alt="Campus" class="hero-img">
+        </div>
+        <div class="hero-content">
+            <span class="hero-tag">Est. 2014 · Phnom Penh, Cambodia</span>
+            <h1 class="hero-title">Shaping <em>Tomorrow's</em><br>Leaders Today</h1>
+            <p class="hero-sub">Eastern International Academy delivers an international education in a warm, supportive community — from Kindergarten through Grade 12.</p>
+            <div class="hero-actions">
+                <a href="#course" class="btn-primary">Explore Programs</a>
+                <a href="#about" class="btn-ghost">Learn More <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- STATS BANNER -->
+    <section class="stats-banner">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <strong>10+</strong>
+                <span>Years of Excellence</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <strong>3</strong>
+                <span>National Campuses</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <strong>300+</strong>
+                <span>Active Students</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <strong>20+</strong>
+                <span>Certified Teachers</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="about-inner">
+            <div class="about-visual">
+                <div class="about-img-wrap">
+                    <img src="images/eia.jpg" alt="Campus Life">
+                    <div class="about-badge">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Top-Rated Academy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <span class="section-label">Who We Are</span>
+                <h2>Education That Opens <em>Every Door</em></h2>
+                <p>Our mission is to ensure every child has access to quality education, regardless of their background. We are dedicated to supporting student success and strengthening education in Cambodia.</p>
+                <p>At Eastern International Academy, we focus on academic growth, character development, and providing a safe space for all learners — nurturing confident, curious minds ready to thrive in a global world.</p>
+                <div class="about-pillars">
+                    <div class="pillar">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Academic Excellence</span>
+                    </div>
+                    <div class="pillar">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Character Development</span>
+                    </div>
+                    <div class="pillar">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>Safe Environment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="programs" id="course">
+        <div class="section-header center">
+            <span class="section-label">Curriculum</span>
+            <h2>Our Academic Programs</h2>
+            <p>From the first day of kindergarten to the final year of high school, we guide every student step by step — building confidence, creativity, and a passion for lifelong learning.</p>
+        </div>
+        <div class="programs-grid">
+            <div class="program-card">
+                <div class="program-icon"><i class="fa-solid fa-shapes"></i></div>
+                <div class="program-tag">Ages 4–6</div>
+                <h3>Kindergarten</h3>
+                <p>A safe, nurturing space for early learners. We build core social and learning skills through structured play and hands-on discovery.</p>
+                <a href="#contact" class="card-link">Learn More <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card featured">
+                <div class="program-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                <div class="program-tag">Grades 1–12</div>
+                <h3>English Program</h3>
+                <p>A complete English curriculum developing strong reading, writing, and communication skills — preparing students for academic and professional success.</p>
+                <a href="#contact" class="card-link">Learn More <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="program-icon"><i class="fa-solid fa-language"></i></div>
+                <div class="program-tag">Grades 1–6</div>
+                <h3>Khmer Program</h3>
+                <p>A primary Khmer curriculum that builds a strong foundation in reading, writing, and clear communication in students' native language.</p>
+                <a href="#contact" class="card-link">Learn More <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAMPUS -->
+    <section class="campus" id="campus">
+        <div class="section-header center">
+            <span class="section-label">Locations</span>
+            <h2>Our Campuses</h2>
+            <p>Three welcoming campus locations — each designed to be a safe, modern, and inspiring place to learn.</p>
+        </div>
+        <div class="campus-grid">
+            <div class="campus-card">
+                <a href="https://maps.app.goo.gl/B5y89ye5hmKw3YJA6?g_st=ic" target="_blank">
+                    <img src="images/eia.jpg" alt="Sensok Campus">
+                    <div class="campus-overlay">
+                        <div class="campus-info">
+                            <span><i class="fa-solid fa-location-dot"></i> Sensok</span>
+                            <p>View on Map <i class="fa fa-arrow-right"></i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-card">
+                <a href="https://maps.app.goo.gl/4o6UMufbUGNuHzeFA?g_st=ic" target="_blank">
+                    <img src="images/eis2.png" alt="St 2002 Campus">
+                    <div class="campus-overlay">
+                        <div class="campus-info">
+                            <span><i class="fa-solid fa-location-dot"></i> St 2002</span>
+                            <p>View on Map <i class="fa fa-arrow-right"></i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-card">
+                <a href="https://maps.app.goo.gl/uomoyC9r2G9QekjY9?g_st=ic" target="_blank">
+                    <img src="images/eis3.png" alt="Ongtaminch Campus">
+                    <div class="campus-overlay">
+                        <div class="campus-info">
+                            <span><i class="fa-solid fa-location-dot"></i> Ongtaminch</span>
+                            <p>View on Map <i class="fa fa-arrow-right"></i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES -->
+    <section class="facilities">
+        <div class="section-header center">
+            <span class="section-label">Student Life</span>
+            <h2> Facilities</h2>
+            <p>We build safe, modern spaces and plan engaging activities so students can learn, play, and grow comfortably every day.</p>
+        </div>
+        <div class="facilities-grid">
+            <div class="facility-card">
+                <div class="facility-img">
+                    <img src="images/nooncare.jpeg" alt="Noon Care Room">
+                    <div class="facility-number">01</div>
+                </div>
+                <div class="facility-body">
+                    <h3>Noon Care</h3>
+                    <p>Safe, supervised noon care where students can rest, eat, and recharge before afternoon classes.</p>
+                </div>
+            </div>
+            <div class="facility-card">
+                <div class="facility-img">
+                    <img src="images/classroom.png" alt="Modern Classroom">
+                    <div class="facility-number">02</div>
+                </div>
+                <div class="facility-body">
+                    <h3>Modern Classrooms</h3>
+                    <p>Bright, comfortable rooms equipped with the right tools to keep students focused and inspired.</p>
+                </div>
+            </div>
+            <div class="facility-card">
+                <div class="facility-img">
+                    <img src="images/student_activites.png" alt="Student Activities">
+                    <div class="facility-number">03</div>
+                </div>
+                <div class="facility-body">
+                    <h3>Student Activities</h3>
+                    <p>Programs, games, and clubs that spark creativity and help students discover new passions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="section-header center">
+            <span class="section-label">Student Voices</span>
+            <h2>What Our Students Say</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>"The teachers here are incredibly helpful and the classes are engaging. I have learned so much since I started my studies here."</p>
+                <div class="testimonial-author">
+                    <img src="images/student2.jpeg" alt="Sokha Chea">
+                    <div>
+                        <strong>Sokha Chea</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>"I love the campus facilities and the friendly environment. It is a great place to study, grow, and make lifelong friends."</p>
+                <div class="testimonial-author">
+                    <img src="images/student1.jpeg" alt="Minea Ros">
+                    <div>
+                        <strong>Minea Ros</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="cta-inner">
+            <span class="section-label light">New Semester</span>
+            <h2>Ready to Begin Your Journey?</h2>
+            <p>Enroll today and give your child the gift of an exceptional education in a warm, international community.</p>
+            <div class="cta-actions">
+                <a href="https://t.me/EasterninternationalAcademy" target="_blank" class="btn-primary light">
+                    <i class="fa-brands fa-telegram"></i> Message on Telegram
+                </a>
+                <a href="https://www.facebook.com/share/1HvviPAzCv/?mibextid=wwXIfr" target="_blank" class="btn-ghost light">
+                    <i class="fa-brands fa-facebook"></i> Visit Our Facebook
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="images/eia.png" alt="EIA Logo">
+                <p>Empowering students in Cambodia with quality, internationally-minded education since 2014.</p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/share/1HvviPAzCv/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://t.me/EasterninternationalAcademy" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#course">Programs</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-phone"></i> (+855) 23 985 395</p>
+                <p><i class="fa-solid fa-phone"></i> (+855) 92 235 111 / 15 941 155</p>
+                <p><i class="fa-solid fa-location-dot"></i> #1B, #2B, Lum Road, Trapeang Chhouk Village, Sangkat Ou Baek K'am, Khan Sen Sok, Phnom Penh</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Eastern International Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
